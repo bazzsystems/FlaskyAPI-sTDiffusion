@@ -8,21 +8,24 @@ Adjust settings such as the number of steps, image width, height, scale, and neg
 View generated images in the browser
 Download generated images as PNG files
 Responsive design for mobile and desktop devices
-Installation
+
+<b>Installation</b>
 Clone this repository:
 
 bash
-git clone https://github.com/yourusername/FlaskyAPI-sTDiffusion.git
-Navigate to the project directory:
+
+<code>git clone https://github.com/yourusername/FlaskyAPI-sTDiffusion.git</code>
+
+<b>Navigate to the project directory:</b>
 
 bash
-cd FlaskyAPI-sTDiffusion
+<code>cd FlaskyAPI-sTDiffusion</code>
 
 
-Usage
+<b>Usage</b>
 
 Start the Flask server:
-python app.py
+<code>python app.py</code>
 
 Open a web browser and navigate to the server URL (usually http://127.0.0.1:7860/).
 
