@@ -15,7 +15,7 @@ Clone this repository:
 
 bash
 
-<code>git clone https://github.com/yourusername/FlaskyAPI-sTDiffusion.git</code>
+<code>git clone https://github.com/orelmizrahii/FlaskyAPI-sTDiffusion.git</code>
 
 <b>Navigate to the project directory:</b>
 
