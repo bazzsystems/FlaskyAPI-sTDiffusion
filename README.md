@@ -10,6 +10,7 @@ Download generated images as PNG files
 Responsive design for mobile and desktop devices
 
 <b>Installation</b>
+
 Clone this repository:
 
 bash
