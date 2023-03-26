@@ -1,0 +1,111 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2a2a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.bubble {
+  background: rgba(44, 62, 80, 0.6);
+  padding: 20px;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.bubble:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+/* Form elements */
+input,
+textarea {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 5px rgba(128, 0, 128, 0.5);
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Textarea */
+textarea#base64 {
+  max-width: 100%;
+  min-width: 100%;
+  height: 100px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Responsive styles */
+@media only screen and (min-width: 768px) {
+  .glass {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .glass {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .glass {
+    width: 40%;
+  }
+}
